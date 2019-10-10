@@ -42,8 +42,9 @@ requirements:
 	@if [[ ! -f requirements.txt ]]; then \
 		touch requirements.txt; \
 	fi
-	python3 -m piptools compile --output-file requirements.tmp requirements.in  && \
+	python3.7 -m piptools compile --output-file requirements.tmp requirements.in  && \
 		cat requirements.tmp > requirements.txt
+	pip install -Ur requirements.txt
 
 
 help:
@@ -71,10 +72,10 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with flake8, pylint
-	flake8 accibsode
+#	flake8 accibsode
 	bandit -c .banditrc -r accibsode
 #	isort --check-only --recursive accibsode
-	pylint accibsode
+	pylint --rcfile .pylintrc accibsode
 
 
 test: ## run tests quickly with the default Python
