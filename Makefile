@@ -26,6 +26,26 @@ export PRINT_HELP_PYSCRIPT
 
 BROWSER := python -c "$$BROWSER_PYSCRIPT"
 
+SHELL = /bin/bash
+VENV_DIR = $(CURDIR)/.venv
+VENV = virtualenv
+
+
+## install development requirements locally
+.PHONY: requirements-dev
+requirements-dev: ## requirements for running tests, etc...
+	pip install -Ur requirements_dev.txt
+
+## compile requirements file to fix versions
+.PHONY: requirements
+requirements:
+	@if [[ ! -f requirements.txt ]]; then \
+		touch requirements.txt; \
+	fi
+	python3 -m piptools compile --output-file requirements.tmp requirements.in  && \
+		cat requirements.tmp > requirements.txt
+
+
 help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
 
@@ -50,11 +70,20 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr htmlcov/
 	rm -fr .pytest_cache
 
-lint: ## check style with flake8
-	flake8 accibsode tests
+lint: ## check style with flake8, pylint
+	flake8 accibsode
+	bandit -c .banditrc -r accibsode
+#	isort --check-only --recursive accibsode
+	pylint accibsode
+
 
 test: ## run tests quickly with the default Python
 	pytest
+
+test-dev:
+	pytest --cov=accibsode --cov-report term-missing \
+		--cov-report html:tests_cov_output/htmlcov
+	$(BROWSER) ./tests_cov_output/htmlcov/index.html
 
 test-all: ## run tests on every Python version with tox
 	tox
@@ -86,3 +115,7 @@ dist: clean ## builds source and wheel package
 
 install: clean ## install the package to the active Python's site-packages
 	python setup.py install
+
+
+dockerbuild: clean
+	docker build -t agogosml_cli .
