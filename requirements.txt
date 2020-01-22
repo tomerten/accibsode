@@ -58,7 +58,7 @@ pandas==0.25.1
 pandocfilters==1.4.2      # via nbconvert
 parso==0.5.1              # via jedi
 partd==1.0.0              # via dask
-pexpect==4.7.0            # via ipython
+pexpect==4.8.0            # via ipython
 pickleshare==0.7.5        # via ipython
 pillow==6.2.0             # via bokeh
 pip-tools==4.1.0
