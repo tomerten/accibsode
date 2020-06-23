@@ -92,7 +92,7 @@ tornado==6.0.3            # via bokeh, distributed, ipykernel, jupyter-client, j
 tqdm==4.36.1
 traitlets==4.3.3          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-core, jupyter-latex-envs, jupyter-nbextensions-configurator, nbconvert, nbformat, notebook, qtconsole
 urllib3==1.25.6           # via elasticsearch
-wcwidth==0.1.7            # via prompt-toolkit
+wcwidth==0.2.5            # via prompt-toolkit
 webencodings==0.5.1       # via bleach
 widgetsnbextension==3.5.1  # via ipywidgets
 zict==1.0.0               # via distributed
