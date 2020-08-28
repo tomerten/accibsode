@@ -30,7 +30,7 @@ jedi==0.15.1              # via ipython
 jinja2==2.10.3            # via bokeh, nbconvert, notebook
 jsonschema==3.0.2
 jupyter-client==5.3.4     # via ipykernel, jupyter-console, notebook, qtconsole
-jupyter-console==6.0.0    # via jupyter
+jupyter-console==6.2.0    # via jupyter
 jupyter-contrib-core==0.3.3  # via jupyter-contrib-nbextensions, jupyter-nbextensions-configurator
 jupyter-contrib-nbextensions==0.5.1
 jupyter-core==4.6.0       # via jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-latex-envs, jupyter-nbextensions-configurator, nbconvert, nbformat, notebook, qtconsole
