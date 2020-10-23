@@ -55,7 +55,7 @@ numexpr==2.7.0
 numpy==1.17.2
 packaging==19.2           # via bokeh
 pandas==0.25.1
-pandocfilters==1.4.2      # via nbconvert
+pandocfilters==1.4.3      # via nbconvert
 parso==0.5.1              # via jedi
 partd==1.0.0              # via dask
 pexpect==4.7.0            # via ipython
