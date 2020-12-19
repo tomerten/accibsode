@@ -64,7 +64,7 @@ pillow==6.2.0             # via bokeh
 pip-tools==4.1.0
 prometheus-client==0.7.1  # via notebook
 prompt-toolkit==2.0.10    # via ipython, jupyter-console
-psutil==5.6.3             # via distributed
+psutil==5.8.0             # via distributed
 ptyprocess==0.6.0         # via pexpect, terminado
 pygments==2.4.2           # via ipython, jupyter-console, nbconvert, qtconsole
 pymongo==3.9.0
