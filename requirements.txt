@@ -19,7 +19,7 @@ distributed==2.5.2        # via dask
 elasticsearch==7.0.5
 entrypoints==0.3          # via nbconvert
 fsspec==0.5.2             # via dask
-graphviz==0.13
+graphviz==0.16
 h5py==2.10.0
 heapdict==1.0.1           # via zict
 ipykernel==5.1.2
