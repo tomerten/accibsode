@@ -65,7 +65,7 @@ pip-tools==4.1.0
 prometheus-client==0.7.1  # via notebook
 prompt-toolkit==2.0.10    # via ipython, jupyter-console
 psutil==5.6.3             # via distributed
-ptyprocess==0.6.0         # via pexpect, terminado
+ptyprocess==0.7.0         # via pexpect, terminado
 pygments==2.4.2           # via ipython, jupyter-console, nbconvert, qtconsole
 pymongo==3.9.0
 pyparsing==2.4.2          # via matplotlib, packaging
