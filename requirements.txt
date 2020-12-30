@@ -61,7 +61,7 @@ partd==1.0.0              # via dask
 pexpect==4.7.0            # via ipython
 pickleshare==0.7.5        # via ipython
 pillow==6.2.0             # via bokeh
-pip-tools==4.1.0
+pip-tools==5.5.0
 prometheus-client==0.7.1  # via notebook
 prompt-toolkit==2.0.10    # via ipython, jupyter-console
 psutil==5.6.3             # via distributed
