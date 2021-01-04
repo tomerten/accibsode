@@ -84,7 +84,7 @@ sortedcontainers==2.1.0   # via distributed
 tables==3.5.2
 tblib==1.4.0              # via distributed
 termcolor==1.1.0
-terminado==0.8.2          # via notebook
+terminado==0.9.2          # via notebook
 testpath==0.4.2           # via nbconvert
 toml==0.10.0
 toolz==0.10.0             # via dask, distributed, partd
