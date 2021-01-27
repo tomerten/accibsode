@@ -91,7 +91,7 @@ toolz==0.10.0             # via dask, distributed, partd
 tornado==6.0.3            # via bokeh, distributed, ipykernel, jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-nbextensions-configurator, notebook, terminado
 tqdm==4.36.1
 traitlets==4.3.3          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-core, jupyter-latex-envs, jupyter-nbextensions-configurator, nbconvert, nbformat, notebook, qtconsole
-urllib3==1.25.6           # via elasticsearch
+urllib3==1.26.3           # via elasticsearch
 wcwidth==0.1.7            # via prompt-toolkit
 webencodings==0.5.1       # via bleach
 widgetsnbextension==3.5.1  # via ipywidgets
