@@ -16,7 +16,7 @@ dask[complete]==2.5.2
 decorator==4.4.0          # via ipython, traitlets
 defusedxml==0.6.0         # via nbconvert
 distributed==2.5.2        # via dask
-elasticsearch==7.0.5
+elasticsearch==7.11.0
 entrypoints==0.3          # via nbconvert
 fsspec==0.5.2             # via dask
 graphviz==0.13
