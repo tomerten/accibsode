@@ -22,7 +22,7 @@ fsspec==0.5.2             # via dask
 graphviz==0.13
 h5py==2.10.0
 heapdict==1.0.1           # via zict
-ipykernel==5.1.2
+ipykernel==5.5.0
 ipython-genutils==0.2.0   # via jupyter-contrib-nbextensions, nbformat, notebook, qtconsole, traitlets
 ipython==7.8.0
 ipywidgets==7.5.1         # via jupyter
