@@ -18,7 +18,7 @@ defusedxml==0.6.0         # via nbconvert
 distributed==2.5.2        # via dask
 elasticsearch==7.0.5
 entrypoints==0.3          # via nbconvert
-fsspec==0.5.2             # via dask
+fsspec==0.8.7             # via dask
 graphviz==0.13
 h5py==2.10.0
 heapdict==1.0.1           # via zict
