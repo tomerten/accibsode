@@ -20,7 +20,7 @@ elasticsearch==7.0.5
 entrypoints==0.3          # via nbconvert
 fsspec==0.5.2             # via dask
 graphviz==0.13
-h5py==2.10.0
+h5py==3.2.1
 heapdict==1.0.1           # via zict
 ipykernel==5.1.2
 ipython-genutils==0.2.0   # via jupyter-contrib-nbextensions, nbformat, notebook, qtconsole, traitlets
