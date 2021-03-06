@@ -12,7 +12,7 @@ click==7.0
 cloudpickle==1.2.2        # via dask, distributed
 colorlover==0.3.0
 cycler==0.10.0            # via matplotlib
-dask[complete]==2.5.2
+dask[complete]==2021.3.0
 decorator==4.4.0          # via ipython, traitlets
 defusedxml==0.6.0         # via nbconvert
 distributed==2.5.2        # via dask
