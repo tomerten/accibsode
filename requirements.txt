@@ -89,7 +89,7 @@ testpath==0.4.2           # via nbconvert
 toml==0.10.0
 toolz==0.10.0             # via dask, distributed, partd
 tornado==6.0.3            # via bokeh, distributed, ipykernel, jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-nbextensions-configurator, notebook, terminado
-tqdm==4.36.1
+tqdm==4.59.0
 traitlets==4.3.3          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-contrib-core, jupyter-contrib-nbextensions, jupyter-core, jupyter-latex-envs, jupyter-nbextensions-configurator, nbconvert, nbformat, notebook, qtconsole
 urllib3==1.25.6           # via elasticsearch
 wcwidth==0.1.7            # via prompt-toolkit
