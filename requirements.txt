@@ -14,7 +14,7 @@ colorlover==0.3.0
 cycler==0.10.0            # via matplotlib
 dask[complete]==2.5.2
 decorator==4.4.0          # via ipython, traitlets
-defusedxml==0.6.0         # via nbconvert
+defusedxml==0.7.1         # via nbconvert
 distributed==2.5.2        # via dask
 elasticsearch==7.0.5
 entrypoints==0.3          # via nbconvert
