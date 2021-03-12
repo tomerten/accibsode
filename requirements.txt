@@ -39,7 +39,7 @@ jupyter-latex-envs==1.4.6  # via jupyter-contrib-nbextensions
 jupyter-nbextensions-configurator==0.4.1  # via jupyter-contrib-nbextensions
 jupyter==1.0.0
 kiwisolver==1.1.0         # via matplotlib
-llvmlite==0.29.0          # via numba
+llvmlite==0.36.0          # via numba
 locket==0.2.0             # via partd
 lxml==4.4.1               # via jupyter-contrib-nbextensions
 markupsafe==1.1.1         # via jinja2
